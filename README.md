@@ -19,11 +19,13 @@ export aws_region_default="your-favorite-region"
 
 ```
 1. $ git clone https://github.com/alexistdk/archtitecture-test
-2. $ cd archtitecture-test/tests
+2. $ cd terraform-test/tests
 3. $ go get github.com/gruntwork-io/terratest/modules/terraform
 4. $ cd .. && go mod init github.com/alexistdk/archtitecture-test
 5. $ cd tests && go test
 ```
+
+or you can simple run the script test.sh with the command `sh test.sh`
 
 The commands above are for:
 1. clone the repository
